@@ -40,10 +40,10 @@ public class Game123 {
 			if (me.equals("가위")) {
 				nMe = 0;
 			}
-			if (me.equals("바위")) {
+			els if (me.equals("바위")) {
 				nMe = 1;
 			}
-			if (me.equals("보")) {
+			else {
 				nMe = 2;
 			}
 			// com이 낸게 0,1,2 가 맞으면 가위 바위 보로 출력
