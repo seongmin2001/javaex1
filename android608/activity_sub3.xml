@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sub3Activity">
+
+    <TextView
+        android:id="@+id/tv_Sub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub3 Activity" />
+
+    <TextView
+        android:id="@+id/tv_Sub3Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name = "
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imv_drum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/drum" />
+
+    <Button
+        android:id="@+id/bt_GoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go Main" />
+
+</LinearLayout>
